@@ -1,7 +1,7 @@
 SRC += muse.c
 
 # Change debounce algorithm
-DEBOUNCE_TYPE = sym_eager_pk
+DEBOUNCE_TYPE = sym_defer_pk
 
 # Enable N-key rollover
 NKRO_ENABLE = yes
